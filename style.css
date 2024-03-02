@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    padding: 20px;
+}
+table {
+   margin-top: 10px;
+    border: 1px solid  rgb(240, 200, 19);
+    width: 45%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    font-weight: 600;
+}
+thead {
+    background: rgb(240, 200, 19);
+    text-align: center;
+   
+}
+th, td {
+    border: 2px solid rgb(240, 200, 19);
+    padding: 1.5rem;
+}
+
+tbody {
+    background: rgb(88, 48, 184);
+    color: white;
+    text-align: left;
+}
+th:nth-of-type(even)  {
+    background: rgba(219, 144, 4, 0.555);
+}
+
+input, button {
+    width: 200px;
+    margin-bottom: 10px;
+    
+}
